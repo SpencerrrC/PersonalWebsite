@@ -91,6 +91,8 @@ a {
 img {
     max-width: 50%;
     height: 50%;
+    object-fit: cover;
+    vertical-align: bottom;
 }
 
 button:hover {opacity: 1}
@@ -107,4 +109,30 @@ button {
   opacity: 0.9;
   transition: 0.3s;
   cursor: pointer;
+}
+
+/* Links Section Stuff */
+.card_collection {
+  list-style-type: none;
+  display: flex;
+  
+}
+
+.link_title {
+  text-align: center;
+}
+
+.image {
+  border: 3px solid #3882f6;
+  border-radius: 6px;
+  flex-grow: 1;
+}
+/* Quote Section Stuff */
+
+/* CTA Section Stuff */
+
+/* Footer Stuff */
+.footer_wrapper {
+  display: flex;
+  justify-content: center;
 }
