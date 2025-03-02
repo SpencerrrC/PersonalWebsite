@@ -93,15 +93,19 @@ a {
   margin: 0 0 0 26px;
 
 }
+
 img {
-    max-width: 50%;
-    height: 50%;
+    max-width: 40%;
+    height: 40%;
     object-fit: cover;
-    vertical-align: bottom;
+    vertical-align: bottom; 
     margin: 0 12px 0 2px;
 }
 
+ #hero_pic {
+  object-position: 100% 0;
 
+} 
 button:hover {opacity: 1}
 button {
   background-color: #3882f6;
