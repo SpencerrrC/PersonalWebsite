@@ -86,13 +86,19 @@ a {
 .main_heading {
   font-weight: bolder;
   font-size: 200%;
+  margin: 0 0 0 26px;
 }
 
+.hero_description {
+  margin: 0 0 0 26px;
+
+}
 img {
     max-width: 50%;
     height: 50%;
     object-fit: cover;
     vertical-align: bottom;
+    margin: 0 12px 0 2px;
 }
 
 button:hover {opacity: 1}
@@ -109,6 +115,7 @@ button {
   opacity: 0.9;
   transition: 0.3s;
   cursor: pointer;
+  margin: 10px 0 5px 26px;
 }
 
 /* Links Section Stuff */
