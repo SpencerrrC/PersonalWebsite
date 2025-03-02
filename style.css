@@ -4,6 +4,7 @@
 *::after {
   box-sizing: border-box;
   font-family: sans-serif;
+  
 }
 
 /* Remove default margin */
@@ -40,6 +41,33 @@ select {
   font: inherit;
 }
 
+/* STYLING CHANGES START HERE */
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 28px;
+}
+
+.header_home {
+  display: flex;
+  align-items: center;
+}
+
+.header_links {
+  list-style-type: none;
+  display: flex;
+  gap: 28px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.header_wrapper, .hero_wrapper, .footer_wrapper {
+  background-color: #1f2937;
+  color: white;
+}
 body {
     font-family: 'Inter', sans-serif;
     font-size: 22px;
