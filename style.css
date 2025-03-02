@@ -42,6 +42,15 @@ select {
 }
 
 /* STYLING CHANGES START HERE */
+/* Body settings */
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* Header Stuff */
 .header_wrapper {
   display: flex;
   justify-content: space-between;
@@ -68,10 +77,15 @@ a {
   background-color: #1f2937;
   color: white;
 }
-body {
-    font-family: 'Inter', sans-serif;
-    font-size: 22px;
-    
+/* Hero Content Stuff */
+.hero_wrapper {
+  display: flex;
+
+}
+
+.main_heading {
+  font-weight: bolder;
+  font-size: 200%;
 }
 
 img {
@@ -79,7 +93,18 @@ img {
     height: 50%;
 }
 
-.hero_wrapper {
-  display: flex;
-
+button:hover {opacity: 1}
+button {
+  background-color: #3882f6;
+  border: white;
+  border-radius: 8px;
+  color: white;
+  padding: 16px 24px;
+  height: 48px;
+  width: 164px;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.9;
+  transition: 0.3s;
+  cursor: pointer;
 }
