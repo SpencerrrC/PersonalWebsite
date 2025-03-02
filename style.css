@@ -43,9 +43,15 @@ select {
 body {
     font-family: 'Inter', sans-serif;
     font-size: 22px;
+    
 }
 
 img {
     max-width: 50%;
     height: 50%;
+}
+
+.hero_wrapper {
+  display: flex;
+
 }
