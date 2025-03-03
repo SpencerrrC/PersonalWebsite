@@ -198,23 +198,25 @@ figcaption {
 }
 
 /* CTA Section Stuff */
-.CTA {
+
+.CTA_wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.CTA_wrapper {
-  
-  
+  justify-content: center;  
   background-color: #1f2937;
   color: white;
   font-size: larger;
-  padding-top: 100px;
+  padding-top: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-bottom: 70px;
   
 }
+
 /* Footer Stuff */
 .footer_wrapper {
   display: flex;
   justify-content: center;
 }
+
