@@ -85,27 +85,29 @@ a {
 
 .main_heading {
   font-weight: bolder;
-  font-size: 200%;
+  font-size: 250%;
   margin: 0 0 0 26px;
 }
 
 .hero_description {
-  margin: 0 0 0 26px;
-
+  margin: 36px 0 0 26px;
+  font-size: 32px;
+  line-height: 64px;
 }
 
 img {
     max-width: 40%;
-    height: 40%;
+    
     object-fit: cover;
-    vertical-align: bottom; 
+    vertical-align: bottom;
     margin: 0 12px 0 2px;
 }
 
- #hero_pic {
-  object-position: 100% 0;
+img, #hero_pic {
+  max-width: 20%;
+  object-position: 35%;
+}
 
-} 
 button:hover {opacity: 1}
 button {
   background-color: #3882f6;
@@ -137,7 +139,7 @@ button {
 .image {
   border: 3px solid #3882f6;
   border-radius: 6px;
-  flex-grow: 1;
+  flex: 1 1 0;
 }
 /* Quote Section Stuff */
 
