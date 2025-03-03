@@ -60,12 +60,14 @@ body {
 .header_home {
   display: flex;
   align-items: center;
+  
 }
 
 .header_links {
   list-style-type: none;
   display: flex;
   gap: 28px;
+  
 }
 
 a {
@@ -91,9 +93,9 @@ a {
 }
 
 .hero_description {
-  margin: 36px 0 0 26px;
+  margin: 36px 100px 0 26px;
   font-size: 32px;
-  line-height: 64px;
+  line-height: 50px;
   
 }
 
@@ -108,6 +110,7 @@ img {
 img, #hero_pic {
   max-width: 24%;
   object-position: 35%;
+
 }
 
 button:hover {opacity: 1}
